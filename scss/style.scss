@@ -363,7 +363,7 @@ main {
     margin-top: 12rem;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #1a173b;
     
@@ -371,6 +371,11 @@ main {
     & p {
       padding-top: 1.2rem;
       border-top: 1.75px solid #E4E4E4;
+
+      & a {
+        text-decoration: underline;
+        color: #1a173b;
+      }
     }
   }
 }
